@@ -1,0 +1,18 @@
+[2021-12-12 19:28:59,333] {scheduler_job.py:154} INFO - Started process (PID=11629) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-12 19:28:59,346] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-12 19:28:59,347] {logging_mixin.py:112} INFO - [2021-12-12 19:28:59,347] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-12 19:28:59,366] {logging_mixin.py:112} INFO - [2021-12-12 19:28:59,365] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-12 19:28:59,368] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-12 19:28:59,375] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.042 seconds

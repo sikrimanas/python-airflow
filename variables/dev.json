@@ -1,0 +1,5 @@
+{
+    "project": "ms-airflow-python",
+    "landing_bucket": "ms-logistics-landing-bucket",
+    "backup_bucket": "ms-logistics-backup-bucket"
+}

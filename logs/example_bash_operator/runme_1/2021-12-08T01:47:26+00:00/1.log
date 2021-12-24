@@ -1,0 +1,19 @@
+[2021-12-07 20:49:01,564] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_1 2021-12-08T01:47:26+00:00 [queued]>
+[2021-12-07 20:49:01,569] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_1 2021-12-08T01:47:26+00:00 [queued]>
+[2021-12-07 20:49:01,569] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-07 20:49:01,569] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2021-12-07 20:49:01,569] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-07 20:49:01,573] {taskinstance.py:900} INFO - Executing <Task(BashOperator): runme_1> on 2021-12-08T01:47:26+00:00
+[2021-12-07 20:49:01,578] {standard_task_runner.py:53} INFO - Started process 3614 to run task
+[2021-12-07 20:49:01,613] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: example_bash_operator.runme_1 2021-12-08T01:47:26+00:00 [running]> 220.1.168.192.in-addr.arpa
+[2021-12-07 20:49:01,624] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /var/folders/pc/z9h6jcjs24b94xv_jww8nvhm0000gn/T
+[2021-12-07 20:49:01,625] {bash_operator.py:105} INFO - Temporary script location: /var/folders/pc/z9h6jcjs24b94xv_jww8nvhm0000gn/T/airflowtmpx5qjexo_/runme_1dw1vtl8i
+[2021-12-07 20:49:01,625] {bash_operator.py:115} INFO - Running command: echo "example_bash_operator__runme_1__20211208" && sleep 1
+[2021-12-07 20:49:01,634] {bash_operator.py:122} INFO - Output:
+[2021-12-07 20:49:01,638] {bash_operator.py:126} INFO - example_bash_operator__runme_1__20211208
+[2021-12-07 20:49:02,649] {bash_operator.py:130} INFO - Command exited with return code 0
+[2021-12-07 20:49:02,668] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=example_bash_operator, task_id=runme_1, execution_date=20211208T014726, start_date=20211208T014901, end_date=20211208T014902
+[2021-12-07 20:49:11,545] {logging_mixin.py:112} INFO - [2021-12-07 20:49:11,544] {local_task_job.py:103} INFO - Task exited with return code 0

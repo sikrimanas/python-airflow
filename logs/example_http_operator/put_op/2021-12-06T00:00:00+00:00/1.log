@@ -1,0 +1,8 @@
+[2021-12-07 20:43:13,627] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_http_operator.put_op 2021-12-06T00:00:00+00:00 [queued]>
+[2021-12-07 20:43:13,632] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_http_operator.put_op 2021-12-06T00:00:00+00:00 [queued]>
+[2021-12-07 20:43:13,633] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-07 20:43:13,633] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2021-12-07 20:43:13,633] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-07 20:43:13,636] {taskinstance.py:900} INFO - Executing <Task(SimpleHttpOperator): put_op> on 2021-12-06T00:00:00+00:00

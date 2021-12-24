@@ -1,0 +1,411 @@
+[2021-12-11 18:03:16,626] {scheduler_job.py:154} INFO - Started process (PID=6226) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:03:16,639] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:03:16,640] {logging_mixin.py:112} INFO - [2021-12-11 18:03:16,640] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:03:16,645] {logging_mixin.py:112} INFO - [2021-12-11 18:03:16,643] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 39
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:03:16,646] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:03:16,659] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.033 seconds
+[2021-12-11 18:04:12,851] {scheduler_job.py:154} INFO - Started process (PID=6258) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:04:12,863] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:04:12,865] {logging_mixin.py:112} INFO - [2021-12-11 18:04:12,864] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:04:12,869] {logging_mixin.py:112} INFO - [2021-12-11 18:04:12,868] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 39
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:04:12,871] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:04:12,884] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.034 seconds
+[2021-12-11 18:05:09,057] {scheduler_job.py:154} INFO - Started process (PID=6288) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:05:09,071] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:05:09,072] {logging_mixin.py:112} INFO - [2021-12-11 18:05:09,071] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:05:09,076] {logging_mixin.py:112} INFO - [2021-12-11 18:05:09,075] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 39
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:05:09,078] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:05:09,090] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.033 seconds
+[2021-12-11 18:06:05,296] {scheduler_job.py:154} INFO - Started process (PID=6320) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:06:05,308] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:06:05,309] {logging_mixin.py:112} INFO - [2021-12-11 18:06:05,309] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:06:05,313] {logging_mixin.py:112} INFO - [2021-12-11 18:06:05,312] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 40
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:06:05,315] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:06:05,327] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.030 seconds
+[2021-12-11 18:07:01,497] {scheduler_job.py:154} INFO - Started process (PID=6350) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:07:01,511] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:07:01,513] {logging_mixin.py:112} INFO - [2021-12-11 18:07:01,513] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:07:01,519] {logging_mixin.py:112} INFO - [2021-12-11 18:07:01,517] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 40
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:07:01,521] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:07:01,532] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.036 seconds
+[2021-12-11 18:07:57,701] {scheduler_job.py:154} INFO - Started process (PID=6380) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:07:57,718] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:07:57,719] {logging_mixin.py:112} INFO - [2021-12-11 18:07:57,719] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:07:57,725] {logging_mixin.py:112} INFO - [2021-12-11 18:07:57,723] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 40
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:07:57,727] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:07:57,739] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.038 seconds
+[2021-12-11 18:08:53,913] {scheduler_job.py:154} INFO - Started process (PID=6412) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:08:53,927] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:08:53,928] {logging_mixin.py:112} INFO - [2021-12-11 18:08:53,928] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:08:53,933] {logging_mixin.py:112} INFO - [2021-12-11 18:08:53,932] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 40
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:08:53,934] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:08:53,946] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.034 seconds
+[2021-12-11 18:09:50,139] {scheduler_job.py:154} INFO - Started process (PID=6442) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:09:50,155] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:09:50,157] {logging_mixin.py:112} INFO - [2021-12-11 18:09:50,156] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:09:50,161] {logging_mixin.py:112} INFO - [2021-12-11 18:09:50,160] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 40
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:09:50,163] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:09:50,175] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.036 seconds
+[2021-12-11 18:10:46,391] {scheduler_job.py:154} INFO - Started process (PID=6474) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:10:46,407] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:10:46,408] {logging_mixin.py:112} INFO - [2021-12-11 18:10:46,408] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:10:46,412] {logging_mixin.py:112} INFO - [2021-12-11 18:10:46,411] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 50
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:10:46,414] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:10:46,426] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.035 seconds
+[2021-12-11 18:11:42,582] {scheduler_job.py:154} INFO - Started process (PID=6504) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:11:42,597] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:11:42,599] {logging_mixin.py:112} INFO - [2021-12-11 18:11:42,598] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:11:42,604] {logging_mixin.py:112} INFO - [2021-12-11 18:11:42,603] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 50
+    storage_bucket='ms-logistics-spark-bucket'
+                 ^
+SyntaxError: invalid syntax
+[2021-12-11 18:11:42,606] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:11:42,617] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.036 seconds
+[2021-12-11 18:12:38,781] {scheduler_job.py:154} INFO - Started process (PID=6534) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:12:38,795] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:12:38,796] {logging_mixin.py:112} INFO - [2021-12-11 18:12:38,796] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:12:38,801] {logging_mixin.py:112} INFO - [2021-12-11 18:12:38,800] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 74
+    subdag=weekday_subdag(
+         ^
+SyntaxError: invalid syntax
+[2021-12-11 18:12:38,803] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:12:38,817] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.036 seconds
+[2021-12-11 18:13:34,995] {scheduler_job.py:154} INFO - Started process (PID=6564) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:13:35,017] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:13:35,019] {logging_mixin.py:112} INFO - [2021-12-11 18:13:35,018] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:13:35,041] {logging_mixin.py:112} INFO - [2021-12-11 18:13:35,040] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:13:35,043] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:13:35,050] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.056 seconds
+[2021-12-11 18:14:31,234] {scheduler_job.py:154} INFO - Started process (PID=6594) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:14:31,249] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:14:31,250] {logging_mixin.py:112} INFO - [2021-12-11 18:14:31,250] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:14:31,271] {logging_mixin.py:112} INFO - [2021-12-11 18:14:31,270] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:14:31,273] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:14:31,284] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.050 seconds
+[2021-12-11 18:15:27,424] {scheduler_job.py:154} INFO - Started process (PID=6625) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:15:27,442] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:15:27,443] {logging_mixin.py:112} INFO - [2021-12-11 18:15:27,443] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:15:27,456] {logging_mixin.py:112} INFO - [2021-12-11 18:15:27,455] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:15:27,457] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:15:27,464] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.040 seconds
+[2021-12-11 18:16:23,663] {scheduler_job.py:154} INFO - Started process (PID=6659) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:16:23,680] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:16:23,682] {logging_mixin.py:112} INFO - [2021-12-11 18:16:23,681] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:16:23,701] {logging_mixin.py:112} INFO - [2021-12-11 18:16:23,699] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:16:23,702] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:16:23,710] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.048 seconds
+[2021-12-11 18:17:19,862] {scheduler_job.py:154} INFO - Started process (PID=6694) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:17:19,880] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:17:19,881] {logging_mixin.py:112} INFO - [2021-12-11 18:17:19,880] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:17:19,898] {logging_mixin.py:112} INFO - [2021-12-11 18:17:19,897] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:17:19,899] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:17:19,905] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.044 seconds
+[2021-12-11 18:18:16,105] {scheduler_job.py:154} INFO - Started process (PID=6727) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:18:16,119] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:18:16,120] {logging_mixin.py:112} INFO - [2021-12-11 18:18:16,120] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:18:16,141] {logging_mixin.py:112} INFO - [2021-12-11 18:18:16,140] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:18:16,143] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:18:16,151] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.046 seconds
+[2021-12-11 18:19:12,325] {scheduler_job.py:154} INFO - Started process (PID=6757) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:19:12,349] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:19:12,350] {logging_mixin.py:112} INFO - [2021-12-11 18:19:12,350] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:19:12,373] {logging_mixin.py:112} INFO - [2021-12-11 18:19:12,372] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:19:12,375] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:19:12,386] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.062 seconds
+[2021-12-11 18:20:08,548] {scheduler_job.py:154} INFO - Started process (PID=6786) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:20:08,556] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:20:08,557] {logging_mixin.py:112} INFO - [2021-12-11 18:20:08,557] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:20:08,575] {logging_mixin.py:112} INFO - [2021-12-11 18:20:08,573] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:20:08,576] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:20:08,582] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.035 seconds
+[2021-12-11 18:21:04,775] {scheduler_job.py:154} INFO - Started process (PID=6819) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:21:04,799] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:21:04,801] {logging_mixin.py:112} INFO - [2021-12-11 18:21:04,801] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:21:04,825] {logging_mixin.py:112} INFO - [2021-12-11 18:21:04,824] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:21:04,827] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:21:04,838] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.064 seconds
+[2021-12-11 18:22:00,985] {scheduler_job.py:154} INFO - Started process (PID=6849) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:22:01,000] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py for tasks to queue
+[2021-12-11 18:22:01,001] {logging_mixin.py:112} INFO - [2021-12-11 18:22:01,001] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:22:01,026] {logging_mixin.py:112} INFO - [2021-12-11 18:22:01,024] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py", line 10, in <module>
+    from airflow.contrib.operators.dataproc_operator import (
+ImportError: cannot import name 'DataProcClusterDeleteOperator' from 'airflow.contrib.operators.dataproc_operator' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/contrib/operators/dataproc_operator.py)
+[2021-12-11 18:22:01,027] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py
+[2021-12-11 18:22:01,039] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataanalytics.py took 0.054 seconds

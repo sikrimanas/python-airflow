@@ -1,0 +1,105 @@
+[2021-12-07 23:03:34,820] {scheduler_job.py:154} INFO - Started process (PID=6255) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:03:34,836] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py for tasks to queue
+[2021-12-07 23:03:34,837] {logging_mixin.py:112} INFO - [2021-12-07 23:03:34,837] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:03:34,842] {logging_mixin.py:112} INFO - [2021-12-07 23:03:34,840] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py", line 1
+    import airflow import DAG
+                        ^
+SyntaxError: invalid syntax
+[2021-12-07 23:03:34,843] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:03:34,857] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py took 0.036 seconds
+[2021-12-07 23:04:24,994] {scheduler_job.py:154} INFO - Started process (PID=6303) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:04:25,001] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py for tasks to queue
+[2021-12-07 23:04:25,002] {logging_mixin.py:112} INFO - [2021-12-07 23:04:25,002] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:04:25,004] {logging_mixin.py:112} INFO - [2021-12-07 23:04:25,004] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py", line 1
+    import airflow import DAG
+                        ^
+SyntaxError: invalid syntax
+[2021-12-07 23:04:25,005] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:04:25,012] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py took 0.018 seconds
+[2021-12-07 23:05:15,220] {scheduler_job.py:154} INFO - Started process (PID=6330) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:05:15,233] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py for tasks to queue
+[2021-12-07 23:05:15,235] {logging_mixin.py:112} INFO - [2021-12-07 23:05:15,234] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:05:15,238] {logging_mixin.py:112} INFO - [2021-12-07 23:05:15,237] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py", line 1
+    import airflow import DAG
+                        ^
+SyntaxError: invalid syntax
+[2021-12-07 23:05:15,239] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:05:15,247] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py took 0.027 seconds
+[2021-12-07 23:06:05,418] {scheduler_job.py:154} INFO - Started process (PID=6357) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:06:05,438] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py for tasks to queue
+[2021-12-07 23:06:05,439] {logging_mixin.py:112} INFO - [2021-12-07 23:06:05,439] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:06:05,443] {logging_mixin.py:112} INFO - [2021-12-07 23:06:05,442] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py", line 1
+    import airflow import DAG
+                        ^
+SyntaxError: invalid syntax
+[2021-12-07 23:06:05,445] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:06:05,458] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py took 0.040 seconds
+[2021-12-07 23:06:55,611] {scheduler_job.py:154} INFO - Started process (PID=6396) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:06:55,622] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py for tasks to queue
+[2021-12-07 23:06:55,623] {logging_mixin.py:112} INFO - [2021-12-07 23:06:55,623] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:06:55,627] {logging_mixin.py:112} INFO - [2021-12-07 23:06:55,626] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py", line 1
+    import airflow import DAG
+                        ^
+SyntaxError: invalid syntax
+[2021-12-07 23:06:55,628] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-07 23:06:55,638] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py took 0.027 seconds

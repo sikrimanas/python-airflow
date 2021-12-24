@@ -1,0 +1,18 @@
+[2021-12-12 19:29:34,077] {scheduler_job.py:154} INFO - Started process (PID=11672) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataload.py
+[2021-12-12 19:29:34,089] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataload.py for tasks to queue
+[2021-12-12 19:29:34,090] {logging_mixin.py:112} INFO - [2021-12-12 19:29:34,090] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataload.py
+[2021-12-12 19:29:34,096] {logging_mixin.py:112} INFO - [2021-12-12 19:29:34,094] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataload.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataload.py", line 2, in <module>
+    from airflow import Variables
+ImportError: cannot import name 'Variables' from 'airflow' (/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/__init__.py)
+[2021-12-12 19:29:34,097] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataload.py
+[2021-12-12 19:29:34,108] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_dataload.py took 0.031 seconds

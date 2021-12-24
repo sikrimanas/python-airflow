@@ -1,0 +1,140 @@
+[2021-12-11 17:57:31,298] {scheduler_job.py:154} INFO - Started process (PID=6017) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:57:31,312] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 17:57:31,313] {logging_mixin.py:112} INFO - [2021-12-11 17:57:31,313] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:57:31,335] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:57:31,344] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.046 seconds
+[2021-12-11 17:58:25,490] {scheduler_job.py:154} INFO - Started process (PID=6052) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:58:25,505] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 17:58:25,506] {logging_mixin.py:112} INFO - [2021-12-11 17:58:25,506] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:58:25,529] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:58:25,538] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.048 seconds
+[2021-12-11 17:59:19,701] {scheduler_job.py:154} INFO - Started process (PID=6084) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:59:19,713] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 17:59:19,714] {logging_mixin.py:112} INFO - [2021-12-11 17:59:19,714] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:59:19,732] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 17:59:19,739] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.038 seconds
+[2021-12-11 18:00:13,927] {scheduler_job.py:154} INFO - Started process (PID=6118) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:00:13,949] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:00:13,950] {logging_mixin.py:112} INFO - [2021-12-11 18:00:13,949] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:00:13,970] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:00:13,979] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.052 seconds
+[2021-12-11 18:01:08,114] {scheduler_job.py:154} INFO - Started process (PID=6156) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:01:08,129] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:01:08,130] {logging_mixin.py:112} INFO - [2021-12-11 18:01:08,130] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:01:08,151] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:01:08,159] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.045 seconds
+[2021-12-11 18:02:02,331] {scheduler_job.py:154} INFO - Started process (PID=6187) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:02:02,345] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:02:02,346] {logging_mixin.py:112} INFO - [2021-12-11 18:02:02,346] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:02:02,370] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:02:02,378] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.047 seconds
+[2021-12-11 18:02:56,547] {scheduler_job.py:154} INFO - Started process (PID=6216) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:02:56,575] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:02:56,577] {logging_mixin.py:112} INFO - [2021-12-11 18:02:56,576] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:02:56,600] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:02:56,608] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.061 seconds
+[2021-12-11 18:03:52,788] {scheduler_job.py:154} INFO - Started process (PID=6245) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:03:52,801] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:03:52,802] {logging_mixin.py:112} INFO - [2021-12-11 18:03:52,802] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:03:52,820] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:03:52,826] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.039 seconds
+[2021-12-11 18:04:48,987] {scheduler_job.py:154} INFO - Started process (PID=6277) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:04:49,012] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:04:49,013] {logging_mixin.py:112} INFO - [2021-12-11 18:04:49,013] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:04:49,034] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:04:49,042] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.055 seconds
+[2021-12-11 18:05:45,209] {scheduler_job.py:154} INFO - Started process (PID=6309) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:05:45,219] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:05:45,220] {logging_mixin.py:112} INFO - [2021-12-11 18:05:45,220] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:05:45,236] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:05:45,242] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.033 seconds
+[2021-12-11 18:06:41,421] {scheduler_job.py:154} INFO - Started process (PID=6340) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:06:41,444] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:06:41,446] {logging_mixin.py:112} INFO - [2021-12-11 18:06:41,445] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:06:41,467] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:06:41,476] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.055 seconds
+[2021-12-11 18:07:37,623] {scheduler_job.py:154} INFO - Started process (PID=6370) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:07:37,639] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:07:37,641] {logging_mixin.py:112} INFO - [2021-12-11 18:07:37,640] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:07:37,664] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:07:37,671] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.048 seconds
+[2021-12-11 18:08:33,833] {scheduler_job.py:154} INFO - Started process (PID=6401) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:08:33,862] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:08:33,864] {logging_mixin.py:112} INFO - [2021-12-11 18:08:33,863] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:08:33,887] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:08:33,895] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.062 seconds
+[2021-12-11 18:09:30,061] {scheduler_job.py:154} INFO - Started process (PID=6431) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:09:30,076] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:09:30,077] {logging_mixin.py:112} INFO - [2021-12-11 18:09:30,077] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:09:30,100] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:09:30,109] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.048 seconds
+[2021-12-11 18:10:26,298] {scheduler_job.py:154} INFO - Started process (PID=6463) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:10:26,307] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:10:26,308] {logging_mixin.py:112} INFO - [2021-12-11 18:10:26,308] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:10:26,323] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:10:26,329] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.032 seconds
+[2021-12-11 18:11:22,514] {scheduler_job.py:154} INFO - Started process (PID=6494) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:11:22,527] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:11:22,529] {logging_mixin.py:112} INFO - [2021-12-11 18:11:22,528] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:11:22,549] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:11:22,557] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.043 seconds
+[2021-12-11 18:12:18,707] {scheduler_job.py:154} INFO - Started process (PID=6524) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:12:18,723] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:12:18,724] {logging_mixin.py:112} INFO - [2021-12-11 18:12:18,724] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:12:18,744] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:12:18,752] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.045 seconds
+[2021-12-11 18:13:14,913] {scheduler_job.py:154} INFO - Started process (PID=6553) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:13:14,926] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:13:14,927] {logging_mixin.py:112} INFO - [2021-12-11 18:13:14,927] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:13:14,948] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:13:14,956] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.043 seconds
+[2021-12-11 18:14:11,145] {scheduler_job.py:154} INFO - Started process (PID=6583) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:14:11,159] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:14:11,160] {logging_mixin.py:112} INFO - [2021-12-11 18:14:11,160] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:14:11,181] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:14:11,188] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.043 seconds
+[2021-12-11 18:15:07,377] {scheduler_job.py:154} INFO - Started process (PID=6613) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:15:07,389] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:15:07,391] {logging_mixin.py:112} INFO - [2021-12-11 18:15:07,390] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:15:07,409] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:15:07,414] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.037 seconds
+[2021-12-11 18:16:03,589] {scheduler_job.py:154} INFO - Started process (PID=6646) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:16:03,603] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:16:03,604] {logging_mixin.py:112} INFO - [2021-12-11 18:16:03,604] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:16:03,625] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:16:03,633] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.044 seconds
+[2021-12-11 18:16:59,798] {scheduler_job.py:154} INFO - Started process (PID=6683) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:16:59,805] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:16:59,806] {logging_mixin.py:112} INFO - [2021-12-11 18:16:59,806] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:16:59,821] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:16:59,827] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.029 seconds
+[2021-12-11 18:17:56,026] {scheduler_job.py:154} INFO - Started process (PID=6716) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:17:56,041] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:17:56,043] {logging_mixin.py:112} INFO - [2021-12-11 18:17:56,042] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:17:56,068] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:17:56,076] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.049 seconds
+[2021-12-11 18:18:52,246] {scheduler_job.py:154} INFO - Started process (PID=6746) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:18:52,262] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:18:52,263] {logging_mixin.py:112} INFO - [2021-12-11 18:18:52,263] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:18:52,284] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:18:52,291] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.045 seconds
+[2021-12-11 18:19:48,469] {scheduler_job.py:154} INFO - Started process (PID=6776) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:19:48,481] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:19:48,483] {logging_mixin.py:112} INFO - [2021-12-11 18:19:48,482] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:19:48,501] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:19:48,509] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.040 seconds
+[2021-12-11 18:20:44,692] {scheduler_job.py:154} INFO - Started process (PID=6809) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:20:44,708] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:20:44,709] {logging_mixin.py:112} INFO - [2021-12-11 18:20:44,709] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:20:44,730] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:20:44,739] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.047 seconds
+[2021-12-11 18:21:40,905] {scheduler_job.py:154} INFO - Started process (PID=6838) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:21:40,918] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:21:40,920] {logging_mixin.py:112} INFO - [2021-12-11 18:21:40,919] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:21:40,941] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:21:40,950] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.045 seconds
+[2021-12-11 18:22:37,117] {scheduler_job.py:154} INFO - Started process (PID=6868) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:22:37,131] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py for tasks to queue
+[2021-12-11 18:22:37,132] {logging_mixin.py:112} INFO - [2021-12-11 18:22:37,132] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:22:37,153] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py
+[2021-12-11 18:22:37,159] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/pyspark_subdag.py took 0.042 seconds

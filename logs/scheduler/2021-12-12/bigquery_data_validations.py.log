@@ -1,0 +1,450 @@
+[2021-12-12 16:20:01,251] {scheduler_job.py:154} INFO - Started process (PID=10676) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:20:01,273] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:20:01,274] {logging_mixin.py:112} INFO - [2021-12-12 16:20:01,274] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:20:01,279] {logging_mixin.py:112} INFO - [2021-12-12 16:20:01,278] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:20:01,281] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:20:01,292] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.042 seconds
+[2021-12-12 16:20:59,488] {scheduler_job.py:154} INFO - Started process (PID=10708) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:20:59,501] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:20:59,502] {logging_mixin.py:112} INFO - [2021-12-12 16:20:59,502] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:20:59,508] {logging_mixin.py:112} INFO - [2021-12-12 16:20:59,505] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:20:59,509] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:20:59,521] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.034 seconds
+[2021-12-12 16:21:57,684] {scheduler_job.py:154} INFO - Started process (PID=10750) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:21:57,697] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:21:57,698] {logging_mixin.py:112} INFO - [2021-12-12 16:21:57,698] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:21:57,704] {logging_mixin.py:112} INFO - [2021-12-12 16:21:57,702] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:21:57,706] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:21:57,720] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.036 seconds
+[2021-12-12 16:22:55,910] {scheduler_job.py:154} INFO - Started process (PID=10781) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:22:55,923] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:22:55,924] {logging_mixin.py:112} INFO - [2021-12-12 16:22:55,924] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:22:55,929] {logging_mixin.py:112} INFO - [2021-12-12 16:22:55,928] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:22:55,930] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:22:55,942] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.033 seconds
+[2021-12-12 16:23:54,154] {scheduler_job.py:154} INFO - Started process (PID=10812) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:23:54,169] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:23:54,170] {logging_mixin.py:112} INFO - [2021-12-12 16:23:54,170] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:23:54,176] {logging_mixin.py:112} INFO - [2021-12-12 16:23:54,175] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:23:54,178] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:23:54,189] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.035 seconds
+[2021-12-12 16:24:52,420] {scheduler_job.py:154} INFO - Started process (PID=10844) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:24:52,435] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:24:52,436] {logging_mixin.py:112} INFO - [2021-12-12 16:24:52,436] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:24:52,442] {logging_mixin.py:112} INFO - [2021-12-12 16:24:52,440] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:24:52,445] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:24:52,457] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.037 seconds
+[2021-12-12 16:25:50,657] {scheduler_job.py:154} INFO - Started process (PID=10882) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:25:50,670] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:25:50,672] {logging_mixin.py:112} INFO - [2021-12-12 16:25:50,671] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:25:50,677] {logging_mixin.py:112} INFO - [2021-12-12 16:25:50,676] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:25:50,679] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:25:50,692] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.035 seconds
+[2021-12-12 16:26:48,861] {scheduler_job.py:154} INFO - Started process (PID=10913) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:26:48,876] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:26:48,878] {logging_mixin.py:112} INFO - [2021-12-12 16:26:48,877] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:26:48,883] {logging_mixin.py:112} INFO - [2021-12-12 16:26:48,882] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:26:48,885] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:26:48,898] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.037 seconds
+[2021-12-12 16:27:47,086] {scheduler_job.py:154} INFO - Started process (PID=10944) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:27:47,107] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:27:47,108] {logging_mixin.py:112} INFO - [2021-12-12 16:27:47,108] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:27:47,114] {logging_mixin.py:112} INFO - [2021-12-12 16:27:47,112] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:27:47,115] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:27:47,129] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.043 seconds
+[2021-12-12 16:28:45,293] {scheduler_job.py:154} INFO - Started process (PID=10978) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:28:45,307] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:28:45,308] {logging_mixin.py:112} INFO - [2021-12-12 16:28:45,308] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:28:45,315] {logging_mixin.py:112} INFO - [2021-12-12 16:28:45,313] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:28:45,317] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:28:45,327] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.034 seconds
+[2021-12-12 16:29:43,529] {scheduler_job.py:154} INFO - Started process (PID=11009) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:29:43,542] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:29:43,544] {logging_mixin.py:112} INFO - [2021-12-12 16:29:43,543] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:29:43,549] {logging_mixin.py:112} INFO - [2021-12-12 16:29:43,548] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:29:43,551] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:29:43,564] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.036 seconds
+[2021-12-12 16:30:41,779] {scheduler_job.py:154} INFO - Started process (PID=11042) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:30:41,792] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:30:41,794] {logging_mixin.py:112} INFO - [2021-12-12 16:30:41,793] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:30:41,799] {logging_mixin.py:112} INFO - [2021-12-12 16:30:41,797] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:30:41,800] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:30:41,813] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.034 seconds
+[2021-12-12 16:31:39,986] {scheduler_job.py:154} INFO - Started process (PID=11081) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:31:39,999] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:31:40,001] {logging_mixin.py:112} INFO - [2021-12-12 16:31:40,001] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:31:40,006] {logging_mixin.py:112} INFO - [2021-12-12 16:31:40,005] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:31:40,009] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:31:40,020] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.034 seconds
+[2021-12-12 16:32:38,226] {scheduler_job.py:154} INFO - Started process (PID=11112) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:32:38,237] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:32:38,238] {logging_mixin.py:112} INFO - [2021-12-12 16:32:38,237] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:32:38,241] {logging_mixin.py:112} INFO - [2021-12-12 16:32:38,240] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:32:38,242] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:32:38,250] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.024 seconds
+[2021-12-12 16:33:36,425] {scheduler_job.py:154} INFO - Started process (PID=11149) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:33:36,433] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:33:36,434] {logging_mixin.py:112} INFO - [2021-12-12 16:33:36,433] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:33:36,437] {logging_mixin.py:112} INFO - [2021-12-12 16:33:36,436] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:33:36,438] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:33:36,445] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.020 seconds
+[2021-12-12 16:34:34,684] {scheduler_job.py:154} INFO - Started process (PID=11182) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:34:34,697] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:34:34,698] {logging_mixin.py:112} INFO - [2021-12-12 16:34:34,698] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:34:34,703] {logging_mixin.py:112} INFO - [2021-12-12 16:34:34,701] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:34:34,705] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:34:34,714] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.030 seconds
+[2021-12-12 16:35:32,895] {scheduler_job.py:154} INFO - Started process (PID=11213) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:35:32,917] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:35:32,919] {logging_mixin.py:112} INFO - [2021-12-12 16:35:32,918] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:35:32,924] {logging_mixin.py:112} INFO - [2021-12-12 16:35:32,923] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:35:32,926] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:35:32,940] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.046 seconds
+[2021-12-12 16:36:31,097] {scheduler_job.py:154} INFO - Started process (PID=11248) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:36:31,114] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:36:31,115] {logging_mixin.py:112} INFO - [2021-12-12 16:36:31,115] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:36:31,121] {logging_mixin.py:112} INFO - [2021-12-12 16:36:31,119] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:36:31,123] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:36:31,135] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.038 seconds
+[2021-12-12 16:37:29,299] {scheduler_job.py:154} INFO - Started process (PID=11284) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:37:29,306] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:37:29,307] {logging_mixin.py:112} INFO - [2021-12-12 16:37:29,307] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:37:29,310] {logging_mixin.py:112} INFO - [2021-12-12 16:37:29,309] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:37:29,311] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:37:29,320] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.021 seconds
+[2021-12-12 16:38:27,539] {scheduler_job.py:154} INFO - Started process (PID=11316) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:38:27,554] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:38:27,555] {logging_mixin.py:112} INFO - [2021-12-12 16:38:27,555] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:38:27,560] {logging_mixin.py:112} INFO - [2021-12-12 16:38:27,558] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:38:27,562] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:38:27,573] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.035 seconds
+[2021-12-12 16:39:25,758] {scheduler_job.py:154} INFO - Started process (PID=11348) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:39:25,774] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:39:25,775] {logging_mixin.py:112} INFO - [2021-12-12 16:39:25,775] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:39:25,780] {logging_mixin.py:112} INFO - [2021-12-12 16:39:25,779] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:39:25,782] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:39:25,794] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.037 seconds
+[2021-12-12 16:40:23,974] {scheduler_job.py:154} INFO - Started process (PID=11378) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:40:23,994] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:40:23,996] {logging_mixin.py:112} INFO - [2021-12-12 16:40:23,996] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:40:24,003] {logging_mixin.py:112} INFO - [2021-12-12 16:40:24,001] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:40:24,006] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:40:24,019] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.046 seconds
+[2021-12-12 16:41:22,210] {scheduler_job.py:154} INFO - Started process (PID=11414) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:41:22,225] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 16:41:22,226] {logging_mixin.py:112} INFO - [2021-12-12 16:41:22,226] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:41:22,234] {logging_mixin.py:112} INFO - [2021-12-12 16:41:22,231] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 16:41:22,235] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 16:41:22,248] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.038 seconds
+[2021-12-12 17:07:32,477] {scheduler_job.py:154} INFO - Started process (PID=11477) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 17:07:32,491] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 17:07:32,492] {logging_mixin.py:112} INFO - [2021-12-12 17:07:32,491] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 17:07:32,495] {logging_mixin.py:112} INFO - [2021-12-12 17:07:32,494] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 17:07:32,496] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 17:07:32,503] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.026 seconds
+[2021-12-12 17:49:32,155] {scheduler_job.py:154} INFO - Started process (PID=11533) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 17:49:32,168] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py for tasks to queue
+[2021-12-12 17:49:32,169] {logging_mixin.py:112} INFO - [2021-12-12 17:49:32,168] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 17:49:32,172] {logging_mixin.py:112} INFO - [2021-12-12 17:49:32,172] {dagbag.py:239} ERROR - Failed to import: /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+Traceback (most recent call last):
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/site-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/manassikri/opt/miniconda3/envs/airflowtutorial/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py", line 4, in <module>
+    from airflow.operators.bigquery_plugin import (
+ModuleNotFoundError: No module named 'airflow.operators.bigquery_plugin'
+[2021-12-12 17:49:32,173] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py
+[2021-12-12 17:49:32,180] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/bigquery_data_validations.py took 0.026 seconds

@@ -1,0 +1,10 @@
+[2021-12-12 19:29:11,375] {scheduler_job.py:154} INFO - Started process (PID=11646) to work on /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-12 19:29:11,384] {scheduler_job.py:1562} INFO - Processing file /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py for tasks to queue
+[2021-12-12 19:29:11,385] {logging_mixin.py:112} INFO - [2021-12-12 19:29:11,384] {dagbag.py:396} INFO - Filling up the DagBag from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-12 19:29:11,392] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['core_concepts']) retrieved from /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py
+[2021-12-12 19:29:11,409] {scheduler_job.py:1284} INFO - Processing core_concepts
+[2021-12-12 19:29:11,430] {scheduler_job.py:1294} INFO - Created <DagRun core_concepts @ 2021-12-12 00:00:00+00:00: scheduled__2021-12-12T00:00:00+00:00, externally triggered: False>
+[2021-12-12 19:29:11,432] {scheduler_job.py:759} INFO - Examining DAG run <DagRun core_concepts @ 2021-12-12 00:00:00+00:00: scheduled__2021-12-12T00:00:00+00:00, externally triggered: False>
+[2021-12-12 19:29:11,440] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: core_concepts> because no tasks in DAG have SLAs
+[2021-12-12 19:29:11,442] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: core_concepts.bash_command 2021-12-12 00:00:00+00:00 [scheduled]> in ORM
+[2021-12-12 19:29:11,445] {scheduler_job.py:162} INFO - Processing /Users/manassikri/Desktop/airflow-tutorial/dags/my_airflow_concepts.py took 0.070 seconds
